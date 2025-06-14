@@ -38,7 +38,7 @@ int main(){
         cin >> valorFoto;
         foto++;
         for(int i=0; i<foto; i++){
-          fotos[i] = valorFoto;
+          fotos[foto - 1] = valorFoto;
         }
         totalGasto += valorFoto;
       } else {
