@@ -20,8 +20,8 @@ int main(){
     }
   }while(((usuario != 'F')&&(usuario != 'f')) || (senhaInserida != senha));
 
+  system("cls");
   do{
-    system("cls");
     cout << "\n\t-----------------------------------";
     cout << "\n\t1 - Adicionar foto";
     cout << "\n\t2 - Total gasto";
